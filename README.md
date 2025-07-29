@@ -8,10 +8,6 @@ Traditional loan recovery processes are reactive, inefficient, and manual. This 
 - Classify them into risk tiers (High, Medium, Low).
 - Recommend targeted
 
-تمام، إذًا نكمل بناء الـ `README.md` بشكل احترافي من البداية للنهاية، ليكون جاهز للنشر على GitHub، متوافق مع الداشبورد الذي أنشأته ونتائج النموذج.
-
----
-
 ## ✅ Final `README.md` – *Smart Loan Recovery System*
 
 ```markdown
