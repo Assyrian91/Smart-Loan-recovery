@@ -10,7 +10,6 @@ Traditional loan recovery processes are reactive, inefficient, and manual. This 
 
 ## ✅ Final `README.md` – *Smart Loan Recovery System*
 
-```markdown
 # 💡 Smart Loan Recovery System
 
 ## 🔍 Project Overview
