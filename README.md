@@ -1,19 +1,11 @@
-# Smart Loan Recovery System
-
-## 🧠 Project Overview
-Traditional loan recovery processes are reactive, inefficient, and manual. This project introduces a smart, data-driven solution to predict loan defaulters and recommend personalized recovery strategies using Machine Learning.
-
-## 📊 Objective
-- Predict customers who are likely to default on their loans.
-- Classify them into risk tiers (High, Medium, Low).
-- Recommend targeted
-
-## ✅ Final `README.md` – *Smart Loan Recovery System*
-
 # 💡 Smart Loan Recovery System
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+
 ## 🔍 Project Overview
-Traditional loan recovery is often reactive and inefficient. This project introduces a smart, ML-powered approach to identify high-risk borrowers and recommend tailored recovery strategies—saving time and improving loan recovery efficiency.
+Traditional loan recovery is often reactive and inefficient. This project introduces a smart, ML-powered approach to identify high-risk borrowers and recommend tailored recovery strategies — saving time and improving loan recovery efficiency.
 
 ## 🎯 Objectives
 - Predict the likelihood of a loan default using classification models.
@@ -24,7 +16,7 @@ Traditional loan recovery is often reactive and inefficient. This project introd
 - **Total Records:** 24,850
 - **Features:** Income, Age, Experience, Marital Status, House & Car Ownership, Profession, City, State, etc.
 - **Target Variable:** `Risk_Flag` (1 = Defaulted, 0 = Paid)
-- **Source:** [Kaggle Dataset or specify if synthetic]
+- **Source:** _[dataset source not recorded — confirm whether this was a Kaggle dataset or synthetic data before finalizing]_
 
 ## 🛠️ Tools & Technologies
 - **Python (Google Colab)** – Data analysis, modeling
@@ -38,7 +30,7 @@ Traditional loan recovery is often reactive and inefficient. This project introd
 - Standardized and encoded features for ML training.
 
 ## 🤖 Model Summary
-- **Algorithm Used:** Logistic Regression / Random Forest (specify what you used)
+- **Algorithm Used:** _[not recorded — confirm whether the final model was Logistic Regression or Random Forest]_
 - **Model Accuracy:** **87.56%**
 - **Evaluation Metrics:** Accuracy, Precision, Recall, Confusion Matrix
 
@@ -52,7 +44,7 @@ Traditional loan recovery is often reactive and inefficient. This project introd
   - Medium Risk → Proactive Reminders & Rescheduling
   - Low Risk → Standard Monitoring
 
-![Smart Loan Recovery Dashboard](your_dashboard_image_path)
+_[Dashboard screenshot placeholder — add the actual image path/filename here once confirmed]_
 
 ## 📌 Key Insights
 - Majority of defaults occur within the Medium-Risk tier.
@@ -64,11 +56,8 @@ Traditional loan recovery is often reactive and inefficient. This project introd
 - Regular monitoring of low-risk customers to maintain repayment behavior.
 - Deeper investigation of high-risk clusters in specific cities/states.
 
-## 📁 Project Structure
-
 ## 🧠 Author
-**Khoshaba Odeesho** – Data Analyst  
-📍 Melbourne  
-🔗 [LinkedIn](http://linkedin.com/in/khoshaba-odeesho-17b5b92aa)  
-🐙 [GitHub](https://github.com/Assyrian91)  
-📧 khoshabayalda91@gmail.com
+**Khoshaba Odeesho** – Data Analyst
+📍 Melbourne
+🔗 [LinkedIn](http://linkedin.com/in/khoshaba-odeesho-17b5b92aa)
+🐙 [GitHub](https://github.com/Assyrian91)
