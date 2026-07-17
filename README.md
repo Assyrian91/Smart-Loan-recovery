@@ -1,7 +1,7 @@
 # 💡 Smart Loan Recovery System
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-Classifier-EB5B25?style=for-the-badge)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
 ## 🔍 Project Overview
@@ -16,23 +16,24 @@ Traditional loan recovery is often reactive and inefficient. This project introd
 - **Total Records:** 24,850
 - **Features:** Income, Age, Experience, Marital Status, House & Car Ownership, Profession, City, State, etc.
 - **Target Variable:** `Risk_Flag` (1 = Defaulted, 0 = Paid)
-- **Source:** _[dataset source not recorded — confirm whether this was a Kaggle dataset or synthetic data before finalizing]_
+- **Source:** Column structure (Income, Age, Experience, City, State, Risk_Flag) matches the commonly-used *"Loan Prediction Based on Customer Behavior"* dataset. The exact original source wasn't recorded in the notebook at the time — if you have the original Kaggle link, worth adding it here for full reproducibility.
 
 ## 🛠️ Tools & Technologies
 - **Python (Google Colab)** – Data analysis, modeling
-- **scikit-learn** – Model training & evaluation
+- **XGBoost** – Model training & evaluation
+- **scikit-learn** – Pipeline, preprocessing (ColumnTransformer, StandardScaler, OneHotEncoder), metrics
 - **Power BI** – Dashboard visualization
 - **Pandas, Matplotlib, Seaborn** – EDA & preprocessing
 
 ## 🧼 Data Cleaning
 - Verified no missing or invalid values.
 - Converted categorical variables for model readiness.
-- Standardized and encoded features for ML training.
+- Standardized and encoded features for ML training (StandardScaler + OneHotEncoder via sklearn Pipeline).
 
 ## 🤖 Model Summary
-- **Algorithm Used:** _[not recorded — confirm whether the final model was Logistic Regression or Random Forest]_
+- **Algorithm Used:** XGBoost Classifier (`XGBClassifier`)
 - **Model Accuracy:** **87.56%**
-- **Evaluation Metrics:** Accuracy, Precision, Recall, Confusion Matrix
+- **Evaluation Metrics:** Accuracy, Precision, Recall, F1 Score, ROC AUC, Confusion Matrix
 
 ## 📊 Dashboard Highlights
 - **Model Accuracy:** 87.56%
@@ -44,7 +45,7 @@ Traditional loan recovery is often reactive and inefficient. This project introd
   - Medium Risk → Proactive Reminders & Rescheduling
   - Low Risk → Standard Monitoring
 
-_[Dashboard screenshot placeholder — add the actual image path/filename here once confirmed]_
+![Loan Recovery Dashboard](./loan_prediction_dashbord.PNG)
 
 ## 📌 Key Insights
 - Majority of defaults occur within the Medium-Risk tier.
